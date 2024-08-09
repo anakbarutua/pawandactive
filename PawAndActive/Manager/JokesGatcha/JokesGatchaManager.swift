@@ -13,7 +13,7 @@ class JokesGatchaManager: JokesGatchaServiceProtocol {
 
     private init() { }
 
-    internal func loadJson() throws -> [JokeDto]? {
+    internal func loadJson() throws -> [JokeDto] {
         if let url = Bundle.main.url(forResource: "jokes", withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
@@ -29,11 +29,13 @@ class JokesGatchaManager: JokesGatchaServiceProtocol {
     
     func getRandomOne() throws -> String {
         let jokes = try loadJson();
-        if(jokes == nil){
+        let joke = jokes.randomElement()
+        
+        if(joke == nil){
             throw JokeError.fileEmpty
         }
         
-        return jokes!.randomElement()!.Joke
+        return joke!.Joke
     }
     
 }
