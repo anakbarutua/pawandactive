@@ -107,7 +107,7 @@
 		BA886C622C661013009F8231 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				BA886C682C661342009F8231 /* Error */,
+				BA886C682C661342009F8231 /* Enum */,
 				BA886C632C66107B009F8231 /* Model */,
 			);
 			path = Data;
@@ -121,12 +121,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		BA886C682C661342009F8231 /* Error */ = {
+		BA886C682C661342009F8231 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
 				BA886C692C661351009F8231 /* JokeError.swift */,
 			);
-			path = Error;
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
