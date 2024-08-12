@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0329902C6A141B0066B495 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03298F2C6A141B0066B495 /* ColorExtension.swift */; };
+		0D0329932C6A14760066B495 /* BarProgressStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0329922C6A14760066B495 /* BarProgressStyle.swift */; };
 		BA7F33A92C624A3B0053C1A6 /* PawAndActiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F33A82C624A3B0053C1A6 /* PawAndActiveApp.swift */; };
 		BA7F33AB2C624A3B0053C1A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F33AA2C624A3B0053C1A6 /* ContentView.swift */; };
 		BA7F33AD2C624A3B0053C1A6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F33AC2C624A3B0053C1A6 /* Item.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D03298F2C6A141B0066B495 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		0D0329922C6A14760066B495 /* BarProgressStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarProgressStyle.swift; sourceTree = "<group>"; };
 		BA7F33A52C624A3B0053C1A6 /* PawAndActive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawAndActive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7F33A82C624A3B0053C1A6 /* PawAndActiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawAndActiveApp.swift; sourceTree = "<group>"; };
 		BA7F33AA2C624A3B0053C1A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +50,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D03298D2C6A13810066B495 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0D0329912C6A145F0066B495 /* Style */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0D03298E2C6A13F70066B495 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0D03298F2C6A141B0066B495 /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0D0329912C6A145F0066B495 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				0D0329922C6A14760066B495 /* BarProgressStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		BA7F339C2C624A3B0053C1A6 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +93,7 @@
 		BA7F33A72C624A3B0053C1A6 /* PawAndActive */ = {
 			isa = PBXGroup;
 			children = (
+				0D03298D2C6A13810066B495 /* UI */,
 				BA886C622C661013009F8231 /* Data */,
 				BA886C5A2C66029D009F8231 /* Manager */,
 				BA7F33A82C624A3B0053C1A6 /* PawAndActiveApp.swift */,
@@ -107,6 +136,7 @@
 		BA886C622C661013009F8231 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				0D03298E2C6A13F70066B495 /* Extension */,
 				BA886C682C661342009F8231 /* Enum */,
 				BA886C632C66107B009F8231 /* Model */,
 			);
@@ -203,10 +233,12 @@
 				BA7F33AB2C624A3B0053C1A6 /* ContentView.swift in Sources */,
 				BA7F33AD2C624A3B0053C1A6 /* Item.swift in Sources */,
 				BA886C652C6610D5009F8231 /* JokeDto.swift in Sources */,
+				0D0329902C6A141B0066B495 /* ColorExtension.swift in Sources */,
 				BA886C612C660FBA009F8231 /* JokesGatchaManager.swift in Sources */,
 				BA886C6A2C661351009F8231 /* JokeError.swift in Sources */,
 				BA886C5D2C660313009F8231 /* JokesGatchaService.swift in Sources */,
 				BA7F33A92C624A3B0053C1A6 /* PawAndActiveApp.swift in Sources */,
+				0D0329932C6A14760066B495 /* BarProgressStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
