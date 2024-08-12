@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		622BFC642C6A4D07001BF7C3 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC632C6A4D07001BF7C3 /* GameViewModel.swift */; };
+		622BFC662C6A4D1F001BF7C3 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC652C6A4D1E001BF7C3 /* WorkoutViewModel.swift */; };
+		622BFC682C6A4D2F001BF7C3 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC672C6A4D2F001BF7C3 /* DashboardViewModel.swift */; };
+		622BFC6D2C6A53A5001BF7C3 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC6C2C6A53A5001BF7C3 /* GameView.swift */; };
+		622BFC6F2C6A53D0001BF7C3 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC6E2C6A53D0001BF7C3 /* SummaryView.swift */; };
+		622BFC712C6A543E001BF7C3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC702C6A543E001BF7C3 /* DashboardView.swift */; };
+		622BFC732C6A54A4001BF7C3 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC722C6A54A4001BF7C3 /* WorkoutDetailView.swift */; };
+		622BFC762C6A559B001BF7C3 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC752C6A559B001BF7C3 /* GameService.swift */; };
+		622BFC782C6A55A5001BF7C3 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC772C6A55A5001BF7C3 /* GameManager.swift */; };
+		622BFC7B2C6A5631001BF7C3 /* VisionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC7A2C6A5631001BF7C3 /* VisionService.swift */; };
+		622BFC7D2C6A563F001BF7C3 /* VisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC7C2C6A563F001BF7C3 /* VisionManager.swift */; };
+		622BFC802C6A565D001BF7C3 /* VisionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC7F2C6A565D001BF7C3 /* VisionHelper.swift */; };
+		622BFC832C6A5723001BF7C3 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC822C6A5723001BF7C3 /* CameraService.swift */; };
+		622BFC852C6A5745001BF7C3 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC842C6A5745001BF7C3 /* CameraManager.swift */; };
+		622BFC882C6A578D001BF7C3 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC872C6A578D001BF7C3 /* Challenge.swift */; };
+		622BFC8A2C6A57A4001BF7C3 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC892C6A57A3001BF7C3 /* Session.swift */; };
+		622BFC8C2C6A57BB001BF7C3 /* WorkoutDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC8B2C6A57BB001BF7C3 /* WorkoutDifficulty.swift */; };
+		622BFC922C6A58C6001BF7C3 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC912C6A58C6001BF7C3 /* Score.swift */; };
+		622BFC942C6A593C001BF7C3 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC932C6A593C001BF7C3 /* Level.swift */; };
+		622BFC982C6A5952001BF7C3 /* WorkoutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC972C6A5952001BF7C3 /* WorkoutType.swift */; };
+		622BFC9B2C6A59B4001BF7C3 /* GameRepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC9A2C6A59B4001BF7C3 /* GameRepositoryService.swift */; };
+		622BFC9D2C6A59DD001BF7C3 /* GameRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC9C2C6A59DD001BF7C3 /* GameRepositoryManager.swift */; };
+		622BFC9F2C6A59FF001BF7C3 /* WorkoutRepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFC9E2C6A59FF001BF7C3 /* WorkoutRepositoryService.swift */; };
+		622BFCA12C6A5A21001BF7C3 /* WorkoutRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFCA02C6A5A21001BF7C3 /* WorkoutRepositoryManager.swift */; };
+		622BFCA32C6A5A30001BF7C3 /* DashboardRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFCA22C6A5A30001BF7C3 /* DashboardRepositoryManager.swift */; };
+		622BFCA52C6A5A5D001BF7C3 /* DashboardRepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFCA42C6A5A5D001BF7C3 /* DashboardRepositoryService.swift */; };
+		622BFCA72C6A5A9A001BF7C3 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFCA62C6A5A9A001BF7C3 /* ChallengeView.swift */; };
+		622BFCA92C6A5EF4001BF7C3 /* ScoreDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFCA82C6A5EF4001BF7C3 /* ScoreDetail.swift */; };
+		622BFCAB2C6A618E001BF7C3 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFCAA2C6A618E001BF7C3 /* Workout.swift */; };
+		622BFCAE2C6A67AB001BF7C3 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BFCAD2C6A67AB001BF7C3 /* Joke.swift */; };
 		BA7F33A92C624A3B0053C1A6 /* PawAndActiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F33A82C624A3B0053C1A6 /* PawAndActiveApp.swift */; };
 		BA7F33AB2C624A3B0053C1A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F33AA2C624A3B0053C1A6 /* ContentView.swift */; };
 		BA7F33AD2C624A3B0053C1A6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F33AC2C624A3B0053C1A6 /* Item.swift */; };
@@ -20,6 +50,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		622BFC632C6A4D07001BF7C3 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		622BFC652C6A4D1E001BF7C3 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		622BFC672C6A4D2F001BF7C3 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		622BFC6C2C6A53A5001BF7C3 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		622BFC6E2C6A53D0001BF7C3 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		622BFC702C6A543E001BF7C3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		622BFC722C6A54A4001BF7C3 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		622BFC752C6A559B001BF7C3 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		622BFC772C6A55A5001BF7C3 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		622BFC7A2C6A5631001BF7C3 /* VisionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionService.swift; sourceTree = "<group>"; };
+		622BFC7C2C6A563F001BF7C3 /* VisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionManager.swift; sourceTree = "<group>"; };
+		622BFC7F2C6A565D001BF7C3 /* VisionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionHelper.swift; sourceTree = "<group>"; };
+		622BFC822C6A5723001BF7C3 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		622BFC842C6A5745001BF7C3 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		622BFC872C6A578D001BF7C3 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		622BFC892C6A57A3001BF7C3 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		622BFC8B2C6A57BB001BF7C3 /* WorkoutDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDifficulty.swift; sourceTree = "<group>"; };
+		622BFC912C6A58C6001BF7C3 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		622BFC932C6A593C001BF7C3 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		622BFC972C6A5952001BF7C3 /* WorkoutType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutType.swift; sourceTree = "<group>"; };
+		622BFC9A2C6A59B4001BF7C3 /* GameRepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRepositoryService.swift; sourceTree = "<group>"; };
+		622BFC9C2C6A59DD001BF7C3 /* GameRepositoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRepositoryManager.swift; sourceTree = "<group>"; };
+		622BFC9E2C6A59FF001BF7C3 /* WorkoutRepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRepositoryService.swift; sourceTree = "<group>"; };
+		622BFCA02C6A5A21001BF7C3 /* WorkoutRepositoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRepositoryManager.swift; sourceTree = "<group>"; };
+		622BFCA22C6A5A30001BF7C3 /* DashboardRepositoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardRepositoryManager.swift; sourceTree = "<group>"; };
+		622BFCA42C6A5A5D001BF7C3 /* DashboardRepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardRepositoryService.swift; sourceTree = "<group>"; };
+		622BFCA62C6A5A9A001BF7C3 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		622BFCA82C6A5EF4001BF7C3 /* ScoreDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreDetail.swift; sourceTree = "<group>"; };
+		622BFCAA2C6A618E001BF7C3 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		622BFCAD2C6A67AB001BF7C3 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		BA7F33A52C624A3B0053C1A6 /* PawAndActive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawAndActive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7F33A82C624A3B0053C1A6 /* PawAndActiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawAndActiveApp.swift; sourceTree = "<group>"; };
 		BA7F33AA2C624A3B0053C1A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +106,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		622BFC612C6A4CBB001BF7C3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC6A2C6A50E9001BF7C3 /* Game */,
+				622BFC692C6A50CD001BF7C3 /* Dashboard */,
+				622BFC6B2C6A50F1001BF7C3 /* Workout */,
+				622BFC622C6A4CEA001BF7C3 /* ViewModel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		622BFC622C6A4CEA001BF7C3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC632C6A4D07001BF7C3 /* GameViewModel.swift */,
+				622BFC652C6A4D1E001BF7C3 /* WorkoutViewModel.swift */,
+				622BFC672C6A4D2F001BF7C3 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		622BFC692C6A50CD001BF7C3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC702C6A543E001BF7C3 /* DashboardView.swift */,
+				622BFCA62C6A5A9A001BF7C3 /* ChallengeView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		622BFC6A2C6A50E9001BF7C3 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC6C2C6A53A5001BF7C3 /* GameView.swift */,
+				622BFC6E2C6A53D0001BF7C3 /* SummaryView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		622BFC6B2C6A50F1001BF7C3 /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC722C6A54A4001BF7C3 /* WorkoutDetailView.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		622BFC742C6A5566001BF7C3 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC752C6A559B001BF7C3 /* GameService.swift */,
+				622BFC772C6A55A5001BF7C3 /* GameManager.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		622BFC792C6A55AA001BF7C3 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC7A2C6A5631001BF7C3 /* VisionService.swift */,
+				622BFC7C2C6A563F001BF7C3 /* VisionManager.swift */,
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
+		622BFC7E2C6A5644001BF7C3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC7F2C6A565D001BF7C3 /* VisionHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		622BFC812C6A5700001BF7C3 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC822C6A5723001BF7C3 /* CameraService.swift */,
+				622BFC842C6A5745001BF7C3 /* CameraManager.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		622BFC862C6A575A001BF7C3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC872C6A578D001BF7C3 /* Challenge.swift */,
+				622BFC892C6A57A3001BF7C3 /* Session.swift */,
+				622BFC8B2C6A57BB001BF7C3 /* WorkoutDifficulty.swift */,
+				622BFCAD2C6A67AB001BF7C3 /* Joke.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		622BFC992C6A5971001BF7C3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				622BFC9A2C6A59B4001BF7C3 /* GameRepositoryService.swift */,
+				622BFC9C2C6A59DD001BF7C3 /* GameRepositoryManager.swift */,
+				622BFC9E2C6A59FF001BF7C3 /* WorkoutRepositoryService.swift */,
+				622BFCA02C6A5A21001BF7C3 /* WorkoutRepositoryManager.swift */,
+				622BFCA42C6A5A5D001BF7C3 /* DashboardRepositoryService.swift */,
+				622BFCA22C6A5A30001BF7C3 /* DashboardRepositoryManager.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		BA7F339C2C624A3B0053C1A6 = {
 			isa = PBXGroup;
 			children = (
@@ -66,7 +232,9 @@
 			isa = PBXGroup;
 			children = (
 				BA886C622C661013009F8231 /* Data */,
+				622BFC7E2C6A5644001BF7C3 /* Helper */,
 				BA886C5A2C66029D009F8231 /* Manager */,
+				622BFC612C6A4CBB001BF7C3 /* UI */,
 				BA7F33A82C624A3B0053C1A6 /* PawAndActiveApp.swift */,
 				BA7F33AA2C624A3B0053C1A6 /* ContentView.swift */,
 				BA7F33AC2C624A3B0053C1A6 /* Item.swift */,
@@ -89,6 +257,10 @@
 		BA886C5A2C66029D009F8231 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				622BFC992C6A5971001BF7C3 /* Repository */,
+				622BFC812C6A5700001BF7C3 /* Camera */,
+				622BFC742C6A5566001BF7C3 /* Game */,
+				622BFC792C6A55AA001BF7C3 /* Vision */,
 				BA886C5B2C6602F1009F8231 /* JokesGatcha */,
 			);
 			path = Manager;
@@ -107,6 +279,7 @@
 		BA886C622C661013009F8231 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				622BFC862C6A575A001BF7C3 /* Entity */,
 				BA886C682C661342009F8231 /* Enum */,
 				BA886C632C66107B009F8231 /* Model */,
 			);
@@ -117,6 +290,8 @@
 			isa = PBXGroup;
 			children = (
 				BA886C642C6610D5009F8231 /* JokeDto.swift */,
+				622BFCA82C6A5EF4001BF7C3 /* ScoreDetail.swift */,
+				622BFCAA2C6A618E001BF7C3 /* Workout.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -125,6 +300,9 @@
 			isa = PBXGroup;
 			children = (
 				BA886C692C661351009F8231 /* JokeError.swift */,
+				622BFC912C6A58C6001BF7C3 /* Score.swift */,
+				622BFC932C6A593C001BF7C3 /* Level.swift */,
+				622BFC972C6A5952001BF7C3 /* WorkoutType.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -200,12 +378,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622BFC8C2C6A57BB001BF7C3 /* WorkoutDifficulty.swift in Sources */,
+				622BFC832C6A5723001BF7C3 /* CameraService.swift in Sources */,
+				622BFCA72C6A5A9A001BF7C3 /* ChallengeView.swift in Sources */,
+				622BFC852C6A5745001BF7C3 /* CameraManager.swift in Sources */,
+				622BFCA12C6A5A21001BF7C3 /* WorkoutRepositoryManager.swift in Sources */,
 				BA7F33AB2C624A3B0053C1A6 /* ContentView.swift in Sources */,
+				622BFC782C6A55A5001BF7C3 /* GameManager.swift in Sources */,
+				622BFCA92C6A5EF4001BF7C3 /* ScoreDetail.swift in Sources */,
+				622BFC732C6A54A4001BF7C3 /* WorkoutDetailView.swift in Sources */,
+				622BFC682C6A4D2F001BF7C3 /* DashboardViewModel.swift in Sources */,
+				622BFCAE2C6A67AB001BF7C3 /* Joke.swift in Sources */,
+				622BFC922C6A58C6001BF7C3 /* Score.swift in Sources */,
+				622BFC7B2C6A5631001BF7C3 /* VisionService.swift in Sources */,
+				622BFC662C6A4D1F001BF7C3 /* WorkoutViewModel.swift in Sources */,
 				BA7F33AD2C624A3B0053C1A6 /* Item.swift in Sources */,
+				622BFCAB2C6A618E001BF7C3 /* Workout.swift in Sources */,
+				622BFCA52C6A5A5D001BF7C3 /* DashboardRepositoryService.swift in Sources */,
+				622BFC9D2C6A59DD001BF7C3 /* GameRepositoryManager.swift in Sources */,
 				BA886C652C6610D5009F8231 /* JokeDto.swift in Sources */,
+				622BFC6F2C6A53D0001BF7C3 /* SummaryView.swift in Sources */,
+				622BFC982C6A5952001BF7C3 /* WorkoutType.swift in Sources */,
+				622BFC6D2C6A53A5001BF7C3 /* GameView.swift in Sources */,
 				BA886C612C660FBA009F8231 /* JokesGatchaManager.swift in Sources */,
+				622BFC642C6A4D07001BF7C3 /* GameViewModel.swift in Sources */,
 				BA886C6A2C661351009F8231 /* JokeError.swift in Sources */,
+				622BFC882C6A578D001BF7C3 /* Challenge.swift in Sources */,
+				622BFCA32C6A5A30001BF7C3 /* DashboardRepositoryManager.swift in Sources */,
+				622BFC802C6A565D001BF7C3 /* VisionHelper.swift in Sources */,
 				BA886C5D2C660313009F8231 /* JokesGatchaService.swift in Sources */,
+				622BFC9B2C6A59B4001BF7C3 /* GameRepositoryService.swift in Sources */,
+				622BFC762C6A559B001BF7C3 /* GameService.swift in Sources */,
+				622BFC942C6A593C001BF7C3 /* Level.swift in Sources */,
+				622BFC8A2C6A57A4001BF7C3 /* Session.swift in Sources */,
+				622BFC7D2C6A563F001BF7C3 /* VisionManager.swift in Sources */,
+				622BFC712C6A543E001BF7C3 /* DashboardView.swift in Sources */,
+				622BFC9F2C6A59FF001BF7C3 /* WorkoutRepositoryService.swift in Sources */,
 				BA7F33A92C624A3B0053C1A6 /* PawAndActiveApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
